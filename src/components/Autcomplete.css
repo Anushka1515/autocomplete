@@ -1,0 +1,70 @@
+.autocomplete-container {
+  width: 320px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.autocomplete-label {
+
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.autocomplete-input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1.5px solid #0c010d;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.autocomplete-loading,
+.autocomplete-error {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.autocomplete-loading {
+  color: #666;
+}
+
+.autocomplete-error {
+  color: red;
+}
+
+.autocomplete-results {
+  margin-top: 8px;
+  max-height: 240px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 0;
+  list-style: none;
+  background-color: #4f0d63;
+}
+
+.autocomplete-item {
+  padding: 10px 12px;
+  color: #ddd;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.autocomplete-item:hover {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.autocomplete-item-title {
+  font-weight: 600;
+}
+
+.autocomplete-item-meta {
+  font-size: 13px;
+  color: #555;
+}
