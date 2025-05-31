@@ -4,10 +4,10 @@ An autocomplete search interface built using React (Vite) for the frontend and F
 
 ## Features
 
-🔎 Search through product titles and brands
-📄 Pagination support with limit and skip
-📈 Ranking: Matches starting with the query are prioritized
-🔄 CORS-enabled backend for seamless frontend integration
+🔎 Search through product titles and brands \
+📄 Pagination support with limit and skip \
+📈 Ranking: Matches starting with the query are prioritized \
+🔄 CORS-enabled backend for seamless frontend integration \
 🖥️ Frontend (React + Vite)
 
 
@@ -36,6 +36,10 @@ Example:
 /products/search?q=phone&limit=5&skip=0
 
 ## Data
+
+https://github.com/user-attachments/assets/2ce0c728-b108-4623-9a3e-0b06ec939c09
+
+
 Static data is loaded from products.json on server startup.
 Simple schema:
 {
@@ -51,4 +55,11 @@ if title.lower().startswith(query.lower()):
     score = 2
 else:
     score = 1
+
+
+## Demo Video
+
+https://github.com/user-attachments/assets/7edbaa41-62d7-4dd3-9b21-be06d7bd116f
+
+
 
