@@ -53,6 +53,12 @@ if title.lower().startswith(query.lower()):
 else:
     score = 1
 
+## Testing
+The following curl command can be used for testing the API \
+curl "http://localhost:5000/products/search?q=ess&limit=5&skip=0"
+
+
+
 
 ## Demo Video
 
