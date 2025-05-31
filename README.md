@@ -1,8 +1,8 @@
-#Autocomplete Search Component
+# Autocomplete Search Component
 
 An autocomplete search interface built using React (Vite) for the frontend and Flask for the backend. It allows users to search through a catalog of products with real-time suggestions, ranking, and pagination.
 
-##Features
+## Features
 
 🔎 Search through product titles and brands
 📄 Pagination support with limit and skip
@@ -11,7 +11,7 @@ An autocomplete search interface built using React (Vite) for the frontend and F
 🖥️ Frontend (React + Vite)
 
 
-##Setup
+## Setup
 cd client
 npm install
 npm run dev
@@ -20,11 +20,11 @@ Backend (Flask)
 cd backend
 python app.py
 
-##Key Components
+## Key Components
 Autocomplete.jsx: Main component with input, suggestion list, and debounce handling
 Fetches results from /products/search?q=... endpoint
 
-##Endpoint
+## Endpoint
 GET /products/search
 Query Parameters:
 
@@ -35,7 +35,7 @@ Example:
 
 /products/search?q=phone&limit=5&skip=0
 
-##Data
+## Data
 Static data is loaded from products.json on server startup.
 Simple schema:
 {
@@ -44,7 +44,7 @@ Simple schema:
   "brand": "Brand Name"
 }
 
-##Ranking Logic
+## Ranking Logic
 Products whose titles start with the query get higher scores
 Sorted in descending order of relevance:
 if title.lower().startswith(query.lower()):
