@@ -12,33 +12,30 @@ An autocomplete search interface built using React (Vite) for the frontend and F
 
 
 ## Setup
-cd client
-npm install
-npm run dev
+cd client \
+npm install \
+npm run dev \
 
-Backend (Flask)
-cd backend
-python app.py
+Backend (Flask) \
+cd backend \
+python app.py \
 
 ## Key Components
 Autocomplete.jsx: Main component with input, suggestion list, and debounce handling
 Fetches results from /products/search?q=... endpoint
 
 ## Endpoint
-GET /products/search
-Query Parameters:
+GET /products/search \
+Query Parameters: \
 
-q (required): Search keyword (min. 2 characters)
-limit (optional): Number of results to return (default: 10)
-skip (optional): Number of results to skip (default: 0)
+q (required): Search keyword (min. 2 characters) \
+limit (optional): Number of results to return (default: 10) \
+skip (optional): Number of results to skip (default: 0) \
+
 Example:
-
 /products/search?q=phone&limit=5&skip=0
 
 ## Data
-
-https://github.com/user-attachments/assets/2ce0c728-b108-4623-9a3e-0b06ec939c09
-
 
 Static data is loaded from products.json on server startup.
 Simple schema:
