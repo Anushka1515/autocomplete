@@ -14,11 +14,11 @@ An autocomplete search interface built using React (Vite) for the frontend and F
 ## Setup
 cd client \
 npm install \
-npm run dev \
+npm run dev 
 
 Backend (Flask) \
 cd backend \
-python app.py \
+python app.py 
 
 ## Key Components
 Autocomplete.jsx: Main component with input, suggestion list, and debounce handling
@@ -26,11 +26,11 @@ Fetches results from /products/search?q=... endpoint
 
 ## Endpoint
 GET /products/search \
-Query Parameters: \
+Query Parameters: 
 
 q (required): Search keyword (min. 2 characters) \
 limit (optional): Number of results to return (default: 10) \
-skip (optional): Number of results to skip (default: 0) \
+skip (optional): Number of results to skip (default: 0) 
 
 Example:
 /products/search?q=phone&limit=5&skip=0
