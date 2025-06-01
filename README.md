@@ -37,8 +37,8 @@ Example:
 
 ## Data
 
-Static data is loaded from products.json on server startup.
-Simple schema:
+Static data is loaded from products.json on server startup.\
+Simple schema:\
 {
   "id": 1,
   "title": "Product Name",
